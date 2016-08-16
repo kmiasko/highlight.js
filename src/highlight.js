@@ -61,9 +61,7 @@ https://highlightjs.org/
   /* Utility functions */
 
   function escape(value) {
-    return value.replace(/[&<>]/gm, function(character) {
-      return escapeRegexMap[character];
-    });
+    return value;
   }
 
   function tag(node) {
